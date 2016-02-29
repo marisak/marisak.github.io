@@ -1,10 +1,10 @@
-<!-- marisak.github.io
+<!-- COGS 120/CSE 170 - LAB 6 
 	 views/index.handlebars -->
 <!doctype html>
 
 <html>
 <head>
-	<title>Marisa Kanemoto</title>	
+	<title>HCI Project Portfolio</title>	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -24,20 +24,23 @@
 	<div class="container">
 		<div class="jumbotron">
 			<h1>Marisa Kanemoto</h1>
-			<p><a href="http://kendo.ucsd.edu">kendo</a> &amp; <a href="http://waxenantimony.tumblr.com">poetry</a> &amp; <a href="http://instagram.com/thinkmooinc/">art</a></p>
+			<p>
+				<a href="http://kendo.ucsd.edu">kendo</a> &amp; <a href="http://waxenantimony.tumblr.com">poetry</a> &amp; <a href="http://instagram.com/thinkmooinc/">art</a>
+			</p>
+			<button id="colorBtn" class="btn btn-primary btn-lg">Colors!</button>
 		</div>
 
 		<h4>Projects</h4>
 		{{#each projects}}
-			<div class="project" id="{{id}}">
-				<div class="thumbnail">
-					<a href="/project/{{id}}">
-						<img src="images/{{image}}" alt="Lorem Pixel image" class="img-responsive">
-						<h4>{{title}}</h4>
-					</a>
-					<div class="details"></div>
-				</div>
+		<div class="project" id="{{id}}">
+			<div class="thumbnail">
+				<a href="#">
+					<img src="images/{{image}}" alt="Lorem Pixel image" class="img">
+					<p>{{name}}</p>
+				</a>
+				<div class="details"></div>
 			</div>
+		</div>
 		{{/each}}
 
 	<script src="https://code.jquery.com/jquery.js"></script>
