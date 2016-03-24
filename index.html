@@ -9,8 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="public/css/bootstrap.min.css" rel="stylesheet">
 	<link href="public/css/bootstrap-theme.min.css" rel="stylesheet">
-	<link href="public/css/introHCI.css" rel="stylesheet">
-	<!-- this is a comment in HTML -->
+	<link href="public/css/marisak.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,11 +23,30 @@
 	<div class="container">
 		<div class="jumbotron">
 			<h1>Marisa Kanemoto</h1>
-			<p>
-				<a href="http://kendo.ucsd.edu">kendo</a> &amp; <a href="http://waxenantimony.tumblr.com">poetry</a> &amp; <a href="http://instagram.com/thinkmooinc/">art</a>
+			<p class="description"> 
+				Third-year student at the University of California, San Diego, pursuing a B.S. in cognitive science. 
 			</p>
+			<p>
+				My hobbies include <a href="http://kendo.ucsd.edu">kendo</a>, <a href="http://waxenantimony.tumblr.com">poetry</a>, and <a href="http://instagram.com/thinkmooinc/">art</a>
+			</p>
+		</div> <!-- end of .jumbotron -->
+		<div class="skills">
+			<h3>Skills</h3>
+			<list> <ul> 
+				<li> HTML / CSS / JavaScript </li>
+				<li> Adobe Photoshop </li>
+				<li> MATLAB </li> 
+				<li> Microsoft Office </li>
+				<li> Data modeling and analysis </li>
+			</ul> </list>
 		</div>
-
+		<div class="projects">
+			<h3>Projects</h3>
+			<list> <ul> 
+					<a href="projects/GetRead.html"><li> GetRead </li></a>
+					<a href="kendo.ucsd.edu"><li> Kendo Club at UCSD website </li></a>
+			</ul> </list>
+		</div>
 
 <!--
 		<h4>Projects</h4>
@@ -40,10 +58,11 @@
 					<p>{{name}}</p>
 				</a>
 				<div class="details"></div>
-			</div>
+				</div>
 		</div>
 		{{/each}}
 -->
+	</div> <!-- end of .container -->
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="public/js/bootstrap.min.js"></script>
 	<script src="public/js/introHCI.js"></script>
