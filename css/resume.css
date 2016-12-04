@@ -1,0 +1,99 @@
+/* COGS 187A coding assignment 1 - index.css */
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-family: 'Dosis', sans-serif;
+	text-align: center;
+	margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+h2 {
+	font-family: 'Dosis', sans-serif;
+	margin-bottom: 0px;
+}
+
+h3 {
+	font-style: italic;
+	margin-top: auto; 
+	margin-bottom: 5px; 
+}
+
+hr {
+	opacity: 0.5;
+}
+
+div {
+	display: block;
+}
+
+/*
+.topnav {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20pt;
+	height: 90px; 
+	width: 100%;
+	background-color: #D8D8D8;
+	padding: 0;
+	float: top;
+}
+*/
+
+.content {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.column1 {
+	width: 50%;
+	float: left;
+	/* background-color: red; */
+}
+
+.column2 {
+	width: 50%;
+	float: right;
+	/* background-color: blue; */
+}
+
+.box {
+	position: relative;
+	left: 5%;
+	width: 90%;
+	opacity: 50;
+
+}
+
+#contact {
+	text-align: center;
+}
+
+#about {
+	width: 60%;
+	padding-left: 20%;
+	text-align: center;
+}
+
+#education {
+	/* background-color: #ee3e64; */
+}
+
+#experience {
+	/* background-color: #44accf; */
+}
+
+#additional {
+	/* background-color: #b7d84b; */
+}
+
+#links {
+	position: absolute;
+	left: 25%;
+	width: 50%;
+	margin-top: 10px;
+	text-align: center;
+	/* background-color: #c3f; */
+}

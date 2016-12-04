@@ -1,0 +1,63 @@
+/* COGS 187A coding assignment 2 - index.css */
+hr {
+	opacity: 0.5;
+	width: 50%;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+	font-size: 20pt;
+	display: inline;
+}
+
+.project {
+	position: relative;
+	left: 40px;
+	width: 80%;
+	height: 300px;
+	/* background-color: #e3d456; */
+}
+
+.project-content {
+	position: absolute;
+	height: 260px;
+	min-width: 100%;
+	top: 20px;
+	left: 20px;
+	background-color: #D8D8D8;
+	z-index: 0;
+}
+
+.project-title {
+	position: absolute;
+	background-color: #000; 
+	width: 220px;
+	height: 40px;
+	z-index: 2;
+}
+
+.project-left {
+	position: relative; 
+	float: left;
+	top: 40px;
+	left: 20px;
+	/* background-color: #1ee52c; */
+	height: 200px;
+	width: 40%;
+}
+
+.project-right {
+	position: relative;
+	float: right;
+	top: 40px;
+	right: 20px;
+	/* background-color: #111190; */
+	height: 200px;
+	width: 50%;
+}
+
+.project-image {
+	position: relative;
+	height: 200px;
+}

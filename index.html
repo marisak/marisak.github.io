@@ -1,70 +1,83 @@
-<!-- Marisa E. Kanemoto
-	 index.html -->
-<!doctype html>
-
-<html>
+<!DOCTYPE HTML> 
 <head>
-	<title>Marisa Kanemoto</title>	
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="public/css/bootstrap.min.css" rel="stylesheet">
-	<link href="public/css/bootstrap-theme.min.css" rel="stylesheet">
-	<link href="public/css/marisak.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->        
+	<!-- COGS 187A coding assignment 2 - index.html -->
+	<title>Marisa Kanemoto</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Roboto">
 </head>
 
-<body>
-	<div class="container">
-		<div class="jumbotron">
-			<h1>Marisa Kanemoto</h1>
-			<p class="description"> 
-				Third-year student at the University of California, San Diego, pursuing a B.S. in cognitive science. 
-			</p>
-			<p>
-				My hobbies include <a href="http://kendo.ucsd.edu">kendo</a>, <a href="http://waxenantimony.tumblr.com">poetry</a>, and <a href="http://instagram.com/thinkmooinc/">art</a>
-			</p>
-		</div> <!-- end of .jumbotron -->
-		<div class="skills">
-			<h3>Skills</h3>
-			<list> <ul> 
-				<li> HTML / CSS / JavaScript </li>
-				<li> Adobe Photoshop </li>
-				<li> MATLAB </li> 
-				<li> Microsoft Office </li>
-				<li> Data modeling and analysis </li>
-			</ul> </list>
-		</div>
-		<div class="projects">
-			<h3>Projects</h3>
-			<list> <ul> 
-					<a href="projects/GetRead.html"><li> GetRead </li></a>
-					<a href="kendo.ucsd.edu"><li> Kendo Club at UCSD website </li></a>
-			</ul> </list>
-		</div>
 
-<!--
-		<h4>Projects</h4>
-		{{#each projects}}
-		<div class="project" id="{{id}}">
-			<div class="thumbnail">
-				<a href="#">
-					<img src="images/{{image}}" alt="Lorem Pixel image" class="img">
-					<p>{{name}}</p>
-				</a>
-				<div class="details"></div>
-				</div>
+<body>
+	<div class="topnav">
+		<div class="topnav-left">
+			<span><a href="/">mk</a> </span>
 		</div>
-		{{/each}}
--->
-	</div> <!-- end of .container -->
-	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="public/js/bootstrap.min.js"></script>
-	<script src="public/js/introHCI.js"></script>
+		<ul class="topnav-right">
+			<li class="topnav-right__item"><a href="/work">work</a></li>
+			<li class="topnav-right__item"><a href="/about">about</a></li>
+		</ul>
+	</div>
+	<div class="content">
+		<div class="project" id="civic-engagement">
+			<div class="project-title">
+				<h3>Civic Engagement</h3>
+			</div>
+			<div class="project-content">
+				<div class="project-left">
+					2016 <br> <br>
+					A futile endeavor to encourage more college students to vote.
+				</div>
+				<div class="project-right">
+					<img class="project-image" src="images/img-placeholder.png">
+				</div>
+			</div>
+		</div> <!-- end of project 1 --> 
+
+		<div class="project" id="getread">
+			<div class="project-title">
+				<h3>GetRead</h3>
+			</div>
+			<div class="project-content">
+				<div class="project-left">
+					2016 <br> <br>
+					Like Tinder, but for books.  And without dick pics. IS this going to get wider if I put more text in it?  wtf?  what's the maximum width of one of these things anyway?  why can't it just be an empty box?  i thought i said 40% but noooo apparently not 
+				</div>
+				<div class="project-right">
+					<img class="project-image" src="images/img-placeholder.png">
+				</div>
+			</div>
+		</div> <!-- end of project 2 --> 
+
+		<div class="project" id="drops">
+			<div class="project-title">
+				<h3>Drops</h3>
+			</div>
+			<div class="project-content">
+				<div class="project-left">
+					2016 <br> <br>
+					A project I'm actually proud of!
+				</div>
+				<div class="project-right">
+					<img class="project-image" src="images/img-placeholder.png">
+				</div>
+			</div>
+		</div> <!-- end of project 3 --> 
+
+		<div class="project" id="sketchbook">
+			<div class="project-title">
+				<h3>Sketchbook</h3>
+			</div>
+			<div class="project-content">
+				<div class="project-left">
+					2016 <br> <br>
+					I draw shit
+				</div>
+				<div class="project-right">
+					<img class="project-image" src="images/img-placeholder.png">
+				</div>
+			</div>
+		</div> <!-- end of project 4 --> 
+	</div> <!-- end of .content -->
 </body>
-</html>

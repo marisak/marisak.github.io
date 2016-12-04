@@ -1,0 +1,74 @@
+/* project.css */
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+	font-size: 30pt;
+	display: inline;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+	font-size: 20pt;
+	display: inline;
+}
+
+.project-page-title {
+	position: absolute;
+	background-color: #000;
+	width: 250px;
+	height: 60px;
+	margin: 0;
+	z-index: 2;
+}
+
+.project-page-subtitle {
+	position: absolute;
+	background-color: #000;
+	width: 220px;
+	height: 40px;
+	margin: 0;
+	z-index: 2;
+}
+
+.project-page-content {
+	position: relative;
+	background-color: #666699;
+	margin-top: 30px;
+	margin-left: 20px;
+	width: 80%;
+	height: 200px;
+	z-index: 1;
+}
+
+.project-page-subcontent {
+	position: relative;
+	background-color: #666699;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 80%;
+	height: 200px;
+	z-index: 1;
+}
+
+.project-page-left {
+	position: relative; 
+	float: left;
+	top: 40px;
+	left: 10px;
+	background-color: #123456;
+	height: 130px;
+	max-width: 45%;
+}
+
+.project-page-right {
+	position: relative;
+	float: right;
+	top: 40px;
+	right: 10px;
+	background-color: #447799;
+	height: 130px;
+	max-width: 45%;
+}
+
