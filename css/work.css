@@ -1,0 +1,60 @@
+/* work.css */
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+	font-size: 30pt;
+	display: inline;
+}
+
+.page-title {
+	position: absolute;
+	background-color: #000;
+	min-width: 250px;
+	height: 60px;
+	margin: 0;
+	z-index: 2;
+}
+
+.content img {
+	height: 350px;
+	margin-left: 20px;
+}
+
+.project-preview-title {
+	position: relative;
+	background-color: #000;
+	width: 140px;
+	height: 40px;
+	margin: 0;
+	z-index: 1;
+	top: 300px;
+}
+
+.project-preview-title h3 {
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+	font-size: 20pt;
+	display: inline;
+}
+
+.project-preview { 
+	position: relative;
+	padding: 0px 10px;
+	display: table-cell;
+	min-width: 200px;
+	min-height: 350px;
+}
+
+/* 
+#getread {
+	background-color: #26A65B;
+}
+
+#voting {
+	background-color: #BD3C37;
+}
+
+#drops {
+	background-color: #67809F;
+} */
