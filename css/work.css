@@ -1,12 +1,5 @@
 /* work.css */
 
-h1 {
-	font-family: 'Roboto', sans-serif;
-	color: #FFF;
-	font-size: 30pt;
-	display: inline;
-}
-
 .page-title {
 	position: absolute;
 	background-color: #000;
