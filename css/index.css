@@ -11,17 +11,6 @@ hr {
 	/* background-color: #e3d456; */
 }
 
-.project-content {
-	font-size: 1.2em;
-	position: relative;
-	min-width: 100%;
-	top: 20px;
-	left: 20px;
-	background-color: #D8D8D8;
-	z-index: 0;
-	padding: 20px 0px 10px 20px;
-}
-
 .project-title {
 	position: absolute;
 	background-color: #000; 
@@ -30,6 +19,27 @@ hr {
 	margin: 0;
 	padding-right: 50px;
 	z-index: 2;
+}
+
+.project-subtitle {
+	position: absolute;
+	background-color: #000;
+	min-width: 220px;
+	height: 40px;
+	margin: 0;
+	padding-right: 50px;
+	z-index: 2;
+}
+
+.project-content, .project-subcontent {
+	font-size: 1.2em;
+	position: relative;
+	max-width: 80%;
+	top: 20px;
+	left: 20px;
+	background-color: #D8D8D8;
+	z-index: 0;
+	padding: 20px 0px 10px 20px;
 }
 
 .project-shit {
