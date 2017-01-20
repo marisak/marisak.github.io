@@ -75,6 +75,10 @@
 }
 
 .project-page-shit img {
+	max-width: 100%; 
+}
+
+#sketchbook {
 	max-width: 280px;
 }
 
