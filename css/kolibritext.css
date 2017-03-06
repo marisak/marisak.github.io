@@ -30,3 +30,12 @@ h1, h2 {
 	font-family: 'Noto Sans', sans-serif;
 	line-height: 1.15;
 }
+
+.shitty-nav {
+	position: fixed;
+	left: 80%;
+	background-color: #B7B6C1;
+	font-family: 'Noto Sans', sans-serif;
+	line-height: 1.5;
+	opacity: 0.8;
+}
