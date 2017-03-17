@@ -9,6 +9,18 @@ body {
 	line-height: 2;
 }
 
+@media(max-width: 1580px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media(max-width: 980px) {
+  html {
+    font-size: 16px;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -22,7 +34,7 @@ h1, h2 {
 	line-height: 1.5;
 }
 
-.img-container {
+.img-container img {
 	text-align: center;
 	max-width: 80%;
 }
@@ -32,6 +44,10 @@ h1, h2 {
 	line-height: 1.15;
 }
 
+.img-header img {
+	max-width: 400px;
+}
+
 .shitty-nav {
 	position: fixed;
 	left: 80%;
@@ -39,6 +55,10 @@ h1, h2 {
 	font-family: 'Noto Sans', sans-serif;
 	line-height: 1.5;
 	opacity: 0.8;
+}
+
+.body-text {
+	padding: 0px 20px 0px 20px;
 }
 
 .equation {
