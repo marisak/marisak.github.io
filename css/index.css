@@ -19,6 +19,7 @@ hr {
 	margin: 0;
 	padding-right: 50px;
 	z-index: 2;
+	box-shadow: 5px 5px 10px #999999;
 }
 
 .project-subtitle {
@@ -47,6 +48,7 @@ hr {
 	margin-right: 10px; 
 	display: inline-block;
 	width: 45%;
+	padding-top: 10px;
 }
 
 .project-shit img {
