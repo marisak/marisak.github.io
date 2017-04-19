@@ -8,7 +8,6 @@
 	margin: 0;
 	padding-right: 50px;
 	z-index: 2;
-	box-shadow: 5px 5px 10px #999999;
 }
 
 .project-page-subtitle {
@@ -19,7 +18,6 @@
 	margin: 0;
 	padding-right: 50px;
 	z-index: 2;
-	box-shadow: 5px 5px 10px #999999;
 }
 
 .project-page-img-subtitle {
@@ -33,7 +31,6 @@
 	padding-left: 50px;
 	z-index: 2;
 	text-align: right;
-	box-shadow: 5px 5px 10px #999999;
 }
 
 .project-page-content {

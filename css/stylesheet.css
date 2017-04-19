@@ -4,7 +4,7 @@ html, body {
 	padding: 0;
 	margin: 0;
 	font-family: 'Roboto', Helvetica, Arial, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 a {
@@ -53,6 +53,10 @@ h5 {
 	font-size: 20pt;
 	color: #000;
 	cursor: pointer;
+}
+
+.topnav a:hover {
+	text-decoration: underline;
 }
 
 .topnav-content {
