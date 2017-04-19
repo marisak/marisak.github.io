@@ -35,7 +35,7 @@
 
 .project-page-content {
 	position: relative;
-	background-color: #D8D8D8;
+	/*background-color: #D8D8D8;*/
 	margin-top: 30px;
 	margin-left: 20px;
 	width: 80%; 
@@ -45,7 +45,7 @@
 
 .project-page-subcontent {
 	position: relative;
-	background-color: #D8D8D8;
+	/*background-color: #D8D8D8;*/
 	margin: 10px 0px 10px 20px;
 	width: 80%;
 	/*height: auto; */
@@ -56,7 +56,7 @@
 
 .project-page-img {
 	position: relative;
-	background-color: #D8D8D8;
+	/*background-color: #D8D8D8;*/
 	margin-top: 0px;
 	margin-right: 20px;
 	margin-left: 20%;
@@ -70,7 +70,6 @@
 	vertical-align: top;
 	margin: 10px;
 	display: inline-block;
-	/* background-color: yellow;*/
 	min-width: 45%;
 }
 
